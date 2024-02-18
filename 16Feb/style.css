@@ -1,0 +1,107 @@
+/* #eg1{ */
+    /* absolute */
+    /* px */
+    /* width: 500px; */
+    /* cm */
+    /* width: 10mm; */
+    /* Relative values */
+    /* percentage */
+    /* width: 600px;
+    height: 500px;
+    background-color: blue;
+}
+
+#eg2{
+    width: 50%;
+    height: 20%;
+    background-color: red;
+}
+
+#eg3{
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+} */
+
+
+#eg1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    /* one value */
+    /* margin: 100px; */
+    /* Two value */
+    /* margin: 20px 50px; */
+    /* margin: y-axis x-axis */
+    /* Three Values */
+    /* margin: 10px 20px 30px; */
+    /* margin: top x-axis bottom */
+    /* four values */
+    /* margin: 10px 20px 30px 40px; */
+    /* margin: top right bottom left */
+    /* x-axis */
+    /* margin-inline: 30px; */
+    /* Individual sides */
+    /* margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-bottom: 40px; */
+    /* margin: auto; */
+    margin: 50px;
+}
+
+#eg2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 70px;
+}
+
+#eg3{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding: 30px;
+    box-sizing: border-box;
+    /* one value */
+    /* padding: 20px; */
+    /* two value */
+    /* padding: 10px 20px; */
+    /* padding: y-axis x-axis */
+    /* three values */
+    /* padding: 10px 20px 30px; */
+    /* padding: top x-axis bottom */
+    /* four values */
+    /* padding: 10px 20px 30px 40px; */
+    /* padding: top right bottom left; */
+    /* individual padding */
+    /* padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px; */
+    /* inline */
+    /* padding-inline: 50px; */
+    /* No negative Values */
+    /* border-style: double;
+    border-color: blue;
+    border-width: 10px; */
+    /* border: 10px solid blue; */
+    /* border: width style color */
+    /* border-radius: 50% ; */
+    /* border-left: 10px solid blue;
+    border-top: 10px solid green;
+    border-right: 30px double pink; */
+}
+
+
+#eg4{
+    width: 400px;
+    height: 400px;
+    border: 5px solid black;
+    /* background-color: blue; */
+    /* background image */
+    background-image: url("https://plus.unsplash.com/premium_photo-1706896024424-feed9476c9e2?q=80&w=2815&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: top;
+}

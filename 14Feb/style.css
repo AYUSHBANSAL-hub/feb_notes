@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* .box{
+    background-color: blue;
+}
+
+.green{
+    color: white;
+}
+
+.btn{
+    width: 150px;
+    padding: 5px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.active{
+    background-color: rgb(73, 73, 220);
+}
+
+.disabled{
+    background-color: black;
+}
+
+.success{
+    background-color: greenyellow;
+}
+
+#parent h3{
+    color: blueviolet;
+} */
+
+#eg1{
+    text-align:left ;
+}
+#eg2{
+    text-align:right ;
+}
+#eg3{
+    text-align:center ;
+}
+#eg4{
+    text-align:justify ;
+}
+#eg5{
+    text-transform: uppercase;
+}
+#eg6{
+    text-transform: lowercase;
+}
+#eg7{
+    text-transform: capitalize;
+}
+
+#eg8{
+    text-decoration: overline;
+}
+#eg9{
+    text-decoration: underline;
+}
+#eg10{
+    text-decoration: line-through;
+}
+
+#eg11{
+    color: white;
+    text-shadow: 0px 0px 15px blue;
+}
+#eg12{
+    font-family: "Inter", sans-serif;
+
+}
+
+#eg13{
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+}
+
+#eg14{
+    font-size: 50px;
+}

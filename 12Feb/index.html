@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <!-- input tag -->
+      <label for="name">Full Name:</label>
+      <input id="name" type="text" name="full_name" placeholder="Ayush Bansal" required />
+      <label for="my_contact">Contact Number</label>
+      <input
+      id="my_contact"
+        type="number"
+        name="contact"
+        placeholder="+91 9872834783"
+        required
+      />
+      <input
+        type="email"
+        name="email"
+        placeholder="ayush@acciojob.com"
+        required
+      />
+      <input type="password" placeholder="password" required/>
+      <input type="date" />
+      <input type="range" />
+      <input type="color" />
+      <input type="file" />
+      <input type="url" placeholder="https://google.com" />
+      <input type="reset" value="Ayush" />
+      <!--Reset button-->
+      <input type="submit" />
+      <!-- radio  button -->
+      <p>Select Gender</p>
+      <input type="radio" value="male" name="gender" /> Male <br />
+      <input type="radio" value="female1" name="gender" /> Female
+      <input type="radio" value="other" name="gender" /> Other
+
+      <!-- checkbox -->
+      <input name="hobby1" type="checkbox" value="basketball" /> basketball
+      <input name="hobby2" type="checkbox" value="badminton" /> badminton
+      <input name="hobby3" type="checkbox" value="cricket" /> cricket
+      <input name="hobby4" type="checkbox" value="football" /> football
+
+      <!-- dropdown -->
+      <p>Select your favourite car brand</p>
+      <select name="car_brand">
+        <option value="BMW">BMW</option>
+        <option value="maruti">Audi</option>
+        <option value="MG">Toyota</option>
+      </select>
+      <!-- text areas -->
+      <textarea
+        placeholder="Add your comment"
+        name="comment"
+        rows="5"
+        cols="50"
+      ></textarea>
+      <button type="reset">Login</button>
+    </form>
+  </body>
+</html>
